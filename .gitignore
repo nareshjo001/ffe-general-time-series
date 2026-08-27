@@ -1,0 +1,75 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Ignore the local DuckDB database file
+*.db
+*.db.wal
+benchmark.db
+benchmark.db.wal
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment and database runtime files
+venv/
+*.db
+*.db.wal
+
+# Ignore any raw dataset CSV files
+*.csv
+
+# Ignore PY Env
+venv
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Py Cache
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python compiled files
+*.pyo
+*.pyd
+
+storage/
